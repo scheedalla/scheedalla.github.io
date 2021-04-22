@@ -1,0 +1,11 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+a{
+    color: gray;
+}
+
+a:hover{
+    text-decoration:dashed;
+}
