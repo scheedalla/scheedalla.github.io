@@ -1,11 +1,11 @@
-body{
-    font-family: 'Quicksand', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-a{
-    color: gray;
+a {
+  color: gray;
 }
 
-a:hover{
-    text-decoration:dashed;
+a:hover {
+  text-decoration: dashed;
 }
