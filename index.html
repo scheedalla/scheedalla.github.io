@@ -9,20 +9,25 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
 			crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+				integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="scripts/scripts.js"></script>
 		<link href="style/style.css" rel="stylesheet">
 	</head>
 <body>
-<header>
-	<a href="index.html">SRUTI CHEEDALLA</a>
-	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="docs/Resume.SrutiCheedalla.pdf">Resume</a></li>
+<header>	
+	<nav>		
+		<ul class="menu">
+			<li class="logo"><a href="index.html">SRUTI CHEEDALLA</a></li>
+			<li class="item"><a href="index.html">Home</a></li>
+			<li class="item"><a href="portfolio.html">Portfolio</a></li>
+			<li class="item"><a href="about.html">About</a></li>
+			<li class="item"><a href="docs/Resume.SrutiCheedalla.pdf">Resume</a></li>
+			<li class="toggle"><a href="#" id="toggle" onclick="openMenu"><i class="fas fa-bars"></i></a></li>
 		</ul>
-	</nav>
+	</nav>	
 </header>
+<div class="container">
 <h1>Hi, I'm Sruti.</h1>
 <h2>I am a User Experience Developer with experience in Interaction Design and Research.</h2>
 <h3>I believe in keeping design and code clean, simple, and accessible.</h3>
@@ -34,6 +39,7 @@
 	<li>Submission Platform Tool / The Washington Post</li>
 	<li>Recently Sold Homes / The Washington Post</li>
 </ul>
+</div>
 <footer>
 Let's connect! 
 scheedalla@gmail.com
