@@ -39,7 +39,17 @@ a:hover {
 }
 
 .container {
-  margin: 20px;
+  margin: 20px 30px;
+  padding-bottom: 50px;
+}
+
+.container h1.greeting {
+  font-family: "Hammersmith One";
+  font-size: 5em;
+}
+
+.container a {
+  color: gray;
 }
 
 footer {
@@ -60,6 +70,41 @@ footer .footer-text {
 
 footer .footer-text a {
   color: white;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: auto;
+  align-content: start;
+  background-color: none;
+  color: black;
+  padding: 10px;
+  margin-top: 15px;
+  border: 1px solid #3e6b89;
+}
+.portfolio-container .portfolio {
+  flex: 0 0 auto;
+  margin: 10px;
+}
+
+.portfolio-container .portfolio .tags {
+  margin-top: 10px;
+}
+
+.portfolio-container .portfolio .tags h5 {
+  background-color: #3e6b89;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  width: fit-content;
+  display: inline-block;
+}
+
+.portfolio-link {
+  padding: 10px 0;
 }
 
 /* Mobile menu */
