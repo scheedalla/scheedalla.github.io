@@ -86,7 +86,7 @@ footer .footer-text a {
   border: 1px solid #3e6b89;
 }
 .portfolio-container .portfolio {
-  flex: 0 0 auto;
+  flex: 1;
   margin: 10px;
 }
 
@@ -105,6 +105,24 @@ footer .footer-text a {
 
 .portfolio-link {
   padding: 10px 0;
+}
+
+.container.case-study h1 {
+  text-align: center;
+}
+
+.container.case-study h2 {
+  text-align: center;
+}
+
+.container.case-study .description {
+  border: none;
+}
+
+.container.case-study .roles {
+  text-align: center;
+  border-left: none;
+  border-right: none;
 }
 
 /* Mobile menu */
