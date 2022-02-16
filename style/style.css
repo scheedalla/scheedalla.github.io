@@ -55,7 +55,7 @@ a:hover {
 footer {
   position: fixed;
   height: 50px;
-  background-color: #3e6b89;
+  background-color: black; /*#3e6b89*/
   bottom: 0px;
   left: 0px;
   right: 0px;
@@ -83,7 +83,7 @@ footer .footer-text a {
   color: black;
   padding: 10px;
   margin-top: 15px;
-  border: 1px solid #3e6b89;
+  border: 1px solid black;
 }
 .portfolio-container .portfolio {
   flex: 1;
@@ -95,7 +95,7 @@ footer .footer-text a {
 }
 
 .portfolio-container .portfolio .tags h5 {
-  background-color: #3e6b89;
+  background-color: black;
   color: white;
   border-radius: 5px;
   padding: 10px;
