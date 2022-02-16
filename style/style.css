@@ -125,6 +125,19 @@ footer .footer-text a {
   border-right: none;
 }
 
+.container.case-study ul li {
+  margin-left: 2em;
+  padding-bottom: 0.5em;
+}
+
+.container.case-study ul li:last-child {
+  padding-bottom: 1em;
+}
+
+.container.case-study p {
+  padding-bottom: 1em;
+}
+
 /* Mobile menu */
 .menu {
   display: flex;
